@@ -1,0 +1,142 @@
+
+.wishlist .box-container{
+ 
+    margin-top: 65px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,30rem);
+    gap:1.0rem;
+    align-items: flex-start;
+    justify-content: center;
+   
+ }
+
+ 
+.wishlist .box-container .box{
+    background-color: #e5e5e5;
+    border: #83028f 1px solid;
+    box-shadow: 15px 20px 20px rgb(170, 167, 167), inset 4px 4px 10px white;
+    border-radius: 20px;
+    padding:2rem;
+    text-align: center;
+    position: relative;
+    height: 350px;
+    width:250px;
+    justify-content: center;
+    align-items: center;
+ }
+
+ 
+.wishlist .box-container .box .image{
+    height:200px;
+    width:180px;
+    object-fit: cover;
+    border: 2px solid #83028f;
+   
+ }
+
+ 
+.wishlist .box-container .box .fa-eye,
+.wishlist .box-container .box .price{
+   position: absolute;
+   top:0.1rem;
+   
+}
+
+
+.wishlist .box-container .box .price{
+    font-size: 1.5rem;
+    padding:0.3rem;
+    background-color:#83028f;
+   
+    color:white;
+    left:0rem;
+    font-family: Verdana;
+    border-radius: 0.8rem;
+    margin-top: 0%;
+ }
+ 
+ .wishlist .box-container .box .fa-eye{
+    right:0.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    line-height: 1.5rem;
+    font-size: 1.5rem;
+    background-color: var(--white);
+    color:var(--black);
+    border:var(--border);
+ }
+ 
+ .wishlsit .box-container .box .fa-eye:hover{
+    background-color: var(--black);
+    color:#83028f;
+ }
+ 
+ .wishlist .box-container .box .quote{
+    margin:1rem;
+    font-size: 1.5rem;
+    color:var(--black);
+    font-family: Verdana;
+ }
+ 
+
+ .wishlist .box-container .box .btn{
+   margin-top: -7px;
+   color:#83028f;
+   font-size: 1.5rem;
+   background-color: #e5e5e5;
+   border:none;
+   font-family: Verdana;
+   text-decoration: none;
+ }
+ 
+
+ .wishlist .end{
+ 
+    max-width: 1500px;
+    margin:0 auto;
+    padding:2rem;
+    text-align: center;
+    background-color: var(--white);
+    border:var(--border);
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+    margin-top: 2rem;
+ }
+ 
+ 
+ .delete-btn,
+.option-btn{
+   display: inline-block;
+   padding:10px 30px;
+   cursor: pointer;
+   font-size: 18px;
+   color:#FFFFFF;
+   border-radius: 5px;
+   text-transform: capitalize;
+ background-color:#83028f;
+   
+
+}
+
+
+.option-btn:hover,
+.delete-btn:hover{
+   background-color:#FFFFFF;
+   display: inline-block;
+   padding:10px 30px;
+   cursor: pointer;
+   font-size: 18px;
+   color:rgba(20,18,20,0.918);
+   border-radius: 5px;
+   border-color:#83028f ;
+   text-transform: capitalize;
+   
+}
+
+.empty{
+    padding:1.5rem;
+    font-size: 2rem;
+    color:#83028f;
+    text-align: center;
+    text-transform: capitalize;
+ }

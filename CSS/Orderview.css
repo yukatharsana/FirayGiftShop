@@ -1,0 +1,173 @@
+/* ------- Order view---------*/
+
+.Order-view {
+  border: 7px solid rgb(61, 3, 83);
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgb(241, 233, 243);
+  border-radius: 10px;
+  width: 72%;
+}
+.view {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.Order-view h2 {
+  border: 5px solid rgb(71, 5, 94);
+  background-color: #cdb5d8;
+  text-align: center;
+  width: 320px;
+  margin: auto;
+  margin-bottom: 40px;
+  font-family:cursive !important;
+}
+.Order-view img {
+  width: 250px;
+  height: 300px;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.viwe-details1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.view table {
+  font-size: 18px;
+  margin: 10px;
+  font-weight: 600;
+}
+.view table td {
+  padding: 1px;
+  word-wrap:break-word;
+}
+.viwe-details1 p {
+  border: solid #490564;
+  border-width: 20px 5px 5px 5px;
+  border-radius: 5px;
+  margin: 20px 10px 20px 50px;
+  width: 80%;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  font-size:14px;
+  font-family:cursive !important;
+}
+.Order-view button{
+  padding:10px;
+  background-color:purple;
+  color:white;
+  font-size:14px;
+  border-radius:15px;
+}
+@media (max-width: 800px) {
+  .Order-view {
+  border: 7px solid rgb(61, 3, 83);
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgb(233, 243, 237);
+  border-radius: 10px;
+  width: 70%;
+}
+.view {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.Order-view h2 {
+  border: 5px solid rgb(71, 5, 94);
+  background-color: #cdb5d8;
+  text-align: center;
+  width: 250px;
+  margin: auto;
+  margin-bottom: 40px;
+  font-family:cursive !important;
+}
+.Order-view img {
+  width: 150px;
+  height: 200px;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.viwe-details1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.view table {
+  font-size: 18px;
+  margin: 10px;
+  font-weight: 600;
+}
+.view table td {
+  padding: 1px;
+  word-wrap:break-word;
+}
+.viwe-details1 p {
+  border: solid #490564;
+  border-width: 20px 5px 5px 5px;
+  border-radius: 5px;
+  margin: 20px 10px 20px 50px;
+  width: 80%;
+  align-items: center;
+  padding: 10px;
+  font-size:14px;
+  font-family:cursive ;
+}
+
+}
+
+/*-------Feeadback--------*/
+
+.feedback form {
+  border: 5px solid rgb(71, 5, 94);
+  border-radius: 5px;
+  background-color: #e9e3e7;
+  width: 360px;
+  padding: 30px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 5px 5px rgb(124, 104, 126);
+}
+
+.feedback h2 {
+  border: 5px solid rgb(10, 9, 10);
+  background-color: #5d187c;
+  text-align: center;
+  width: 360px;
+  color: rgb(255, 255, 255);
+  margin:40px auto;
+}
+.feedback .lable1 {
+  padding: 10px;
+  font-size: 20px;
+  color: #000000;
+  font-weight: 800;
+}
+.feedback .lable1 input {
+  padding: 5px;
+  border-radius: 10px;
+}
+.feedback .label2 {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 800;
+  color: #0a000e;
+}
+.feedback textarea {
+  border-radius: 10px;
+  padding: 5px;
+}
+.feedback .feeadback_submit input {
+  background-color: #490564;
+  padding: 10px;
+  border-radius: 5px;
+  color:white;
+  font-size:14px;
+}

@@ -1,0 +1,435 @@
+*{
+    padding: 0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav{  
+    background-color:#83028f;
+    font-family: Lucida Console; 
+ 
+}
+
+a.navbar-brand {
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    font-family: Papyrus;
+}
+nav a{  /*navigation bar hyperlink words*/
+  
+    font-size: 19px;
+    text-transform:capitalize;
+   
+    border-radius: 5px; /*border cave*/
+ }
+
+a.nav-link:hover{
+  
+    border: 2px solid white ; 
+    transition: .5s;
+   
+ }
+
+ .dbh{
+height:270px;
+background-color: rgb(219, 212, 212);
+ }
+ .dbh p{
+     font-family:'Gill Sans MT';
+     color: #83028f;
+     font-size: 3rem;
+     text-align: center;
+     padding:50px 0;
+ }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 10px;
+    align-items: flex-start;
+    background-color:white;
+    padding: 15px;
+    margin: 0 auto;
+   
+  }
+
+  
+  .grid-container > div {
+    background-color: white;
+    padding: 20px 0;
+    border: 2px solid #83028f;; 
+    height: 125px;
+   border-radius: .5rem;
+   color:black; 
+  }
+ .grid-container>div:hover {
+ border: 3px solid grey;
+    transform: scale(0.9); 
+   
+  }
+  
+.grid-container p{
+    /* padding:1.5rem; */
+    /* border-radius: .5rem; */
+    background-color: var(--light-bg);
+    color: #83028f;
+    border:var(--border);
+    /* margin-top: 2rem; */
+    font-size: 1.5rem;
+    margin-left:15px;
+   font-family:'Gill Sans MT';
+  
+ 
+ }
+
+ .grid-container h3{
+   
+   padding:10px 0;
+    font-style: normal;
+    font-size: 2rem;
+    color:#83028f;
+ }
+
+ .nobox{
+   /* background-color:#84488a; */
+   height:65px;
+   width:65px;
+   border:2px solid #83028f;
+   border-radius: 10%;
+   /* align-items: center;
+   text-align: center; */
+   margin-left: 70%;
+   margin-top:-13%;
+   display: flex;
+   justify-content: center;
+
+
+
+}
+
+ .btn{
+    display: block;
+    width:100%; 
+    cursor: pointer;
+    border-radius: .5rem;
+    margin-top: 1rem;
+    font-size: 1.0rem;
+    padding: 1rem 3rem;
+    background-color:#83028f;
+    color: white; 
+    border: 2px solid white;
+    
+ }
+
+ .btn:hover{
+    color: black;
+   
+ }
+
+ .btngb{
+   color: white;
+   font-size: 18px  ;
+   text-decoration: none;
+ }
+ .btngb:hover{
+   color: black;
+  
+}
+ 
+.message{
+display: block;
+background-color:black;
+color: white;
+text-align: center;
+font-size: 1.9rem;
+text-transform:uppercase
+ }
+
+
+.product-Container{
+padding: 2rem;
+margin: 0 auto;
+}
+
+.admin-product-form-container.centered{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+ }
+    
+
+.admin-product-form-container form{
+max-width: 30rem;
+margin:0 auto;
+padding: 2rem;
+border-radius: .5rem;
+background-color: grey;
+}
+
+.admin-product-form-container form h3{
+    text-transform: uppercase;
+    color:white;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 1.9rem;
+    
+}
+
+.admin-product-form-container form .box{
+
+width: 100%;
+padding:.5rem .5rem;
+font-size: 1rem;
+margin: 0.3rem 0;
+text-transform: none;
+background: var(white);
+border-radius: .5rem;
+border:var(--border);
+
+}
+
+.product-display{
+    margin: 5rem 0;
+  background-color:lightgray;
+width:100%;
+}
+
+.product-display-table{
+    width:100%;
+    text-align:center;
+    font-size: 1.1rem;  
+    font-weight: bold;
+    table-layout: fixed;
+  
+    
+    
+}
+.thead{
+    font-weight: bold;
+    background: #83028f;
+    color: white;
+    font-size: 1.1rem;
+    height:50px;
+    font-family:Verdana;
+    text-align: center;
+   
+    
+}
+
+tr{
+border: 1px solid white;
+
+}
+.button{
+    display: block;
+    cursor: pointer;
+    border-radius: .5rem;
+    margin-top: 0.5rem;
+    font-size: 1.0rem;
+    padding: 0.5rem 0.5rem;
+    background-color:#83028f;
+    color: white;
+    text-align: center;   
+    font-family:Verdana;
+    width: 90%; 
+ }
+
+ .button:first-child:hover{
+    background: white;
+    color: #000;
+    border:2px solid #83028f;
+ }
+
+ .button:last-child:hover{
+    background:white;
+    color: #000;
+    border:2px solid #83028f;
+ }
+
+ .image
+ {
+    border: 1px solid black;
+    height: 400px;
+ }
+
+
+  .box-container{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 10px;
+    align-items: flex-start;
+    background-color:grey;
+    padding: 15px;
+    margin: 0 auto;
+ }
+ .box-container .box{
+    background-color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+ 
+    height: 325px;
+   border-radius: .5rem;
+   color:black;
+ }
+ 
+ .users .box-container .box p{
+    font-size: 1.8rem;
+    color: #83028f;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+ }
+
+.box:hover {
+    border: 4px solid black;
+       transform: scale(0.9); 
+       background-color: #D3D3D3;
+      
+     }
+ 
+ .box p span{
+    color: #000;
+ }
+ 
+ .navbar .container-fluid .collapse ul li ul{
+   position: absolute;
+   background-color:#83028f;
+   animation: fadeIn .2s linear;
+   display: none;
+   width:100%;
+  
+
+   
+}
+
+.navbar .container-fluid .collapse  ul li ul li a{
+ text-align: center;
+  text-decoration: none;
+  color: white;
+  margin-left: -15px;
+}
+
+.navbar .container-fluid .collapse  ul li:hover ul{
+   display: inline-block;
+}
+
+.fa-solid{
+color:#83028f;
+font-size: 2rem;
+}
+
+.scdt{
+ border: 2px solid grey;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+text-align:center;
+   
+
+}
+
+.scdth{
+   text-align: center;
+   border-bottom: 1px solid #ddd;
+   background-color: #83028f;
+   color:white;
+   height:25px;
+   font-size: 1.5rem;
+}
+
+.scdtr{
+   text-align:center;
+   font-size: 1.2rem;
+  
+}
+
+.amct{
+   border: 2px solid grey;
+   width: 50%;
+   margin-left: auto;
+   margin-right: auto;
+ text-align:center;
+ align-items: center;
+}
+
+.amcth{
+   text-align: center;
+   border-bottom: 1px solid #ddd;
+   background-color: #83028f;
+   color:white;
+   height:25px;
+   font-size: 1.5rem;
+}
+
+.amctr{
+   text-align:center;
+   font-size: 1.2rem;
+  
+  
+}
+
+.acbtn{
+   display:inline-block;
+   cursor: pointer;
+   border-radius: .3rem;
+   margin-top: 0.5rem;
+   margin-bottom: 0.3rem;
+   font-size: 1.0rem;
+   padding: 0.4rem 0.4rem;
+   /* background-color:#83028f; */
+   color:#83028f;
+   text-align: center;   
+   font-family:Verdana;
+   width: 50%;  
+   text-decoration: none;
+   font-weight: bold;
+   
+}
+
+.table{
+   border:2px solid #83028f;
+   margin-left: auto;
+   margin-right: auto;
+  width: 50%;
+  font-size: 1.2rem;
+
+}
+
+.btnao{
+  text-decoration: none;
+  color:#83028f;
+  font-weight: bold;
+}
+
+.aohead{
+    color: #83028f;
+    margin-top: 2rem; 
+    font-size: 2.5rem;
+    margin-left:15px;
+   font-family:'Gill Sans MT';
+   text-align:center;
+ 
+}
+
+.btncf{
+ 
+  border-radius: .3rem;
+   margin-top: 0.5rem;
+   font-size: 1.0rem;
+   padding: 0.4rem 0.4rem; 
+   background-color:#83028f;
+   color:white;
+   text-align: center;   
+   font-family:Verdana;
+   width: 50%;  
+   text-decoration: none;
+   font-weight: bold;
+   width: 150px;
+   margin-left: 60%;
+   border:none;
+}

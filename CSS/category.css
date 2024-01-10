@@ -1,0 +1,202 @@
+
+.products .box-container{
+ 
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   grid-gap: 20px;
+   justify-content: center;
+
+}
+body{
+   background-image: linear-gradient(to bottom right, white, rgb(211, 189, 211));
+}
+hr {
+   border: 2px solid rgb(131, 51, 13); 
+   border-radius: 5px;
+ }
+.catp{
+font-family:roboto;
+background: -webkit-linear-gradient(rgb(207, 194, 194), rgb(124, 5, 65));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-align:center;
+
+}
+.cathead{
+   margin-top: 13px;
+   font-size: 40px;
+}
+.cathead2{
+   font-size: 30px;
+}
+
+.catm{
+   font-family: "Lucida Console", Courier, monospace;
+   color:#83028f;
+   font-weight: bolder;
+  margin:0 10%;
+  text-align: center;
+   margin-top:50px;
+   text-transform: uppercase;
+}
+.cats{
+color:#b32e5a;
+margin-bottom: 50px;
+font-family: cursive;
+font-weight: 900;
+font-size: 20px;
+margin: 20px;
+text-transform: capitalize;
+
+}
+.catm,.cats{
+grid-column-end: span 4;
+}
+
+
+@media screen and (max-width: 700px) {
+   .catm,.cats,.box-containerCart{
+      grid-column-end: span 4;
+  }
+  .catm,.cats,.catp{
+   font-size:20px;
+  }
+  
+ }
+ 
+.products .box-container .box{
+   background-color: #e5e5e5;
+   border:#83028f 1px solid;
+   box-shadow: 15px 20px 20px rgb(170, 167, 167), inset 4px 4px 10px white;
+   border-radius: 20px;
+   padding:2rem;
+   text-align: center;
+   position: relative;
+   height: 350px;
+   width:250px;
+   justify-content: center;
+   transition: transform .2s;
+ 
+}
+.products .box-container .box:hover{
+   -ms-transform: scale(1.1); /* IE 9 */
+   -webkit-transform: scale(1.1); /* Safari 3-8 */
+   transform: scale(1.1); 
+}
+
+.products .box-container .box .image{
+   height:200px;
+   width:180px;
+   object-fit: cover;
+   border: 2px solid #83028f;
+  
+}
+
+.products .box-container .box .fa-eye,
+.products .box-container .box .price{
+   position: absolute;
+   top:0.1rem;
+   
+}
+
+.products .box-container .box .price{
+   font-size: 1.5rem;
+   padding:0.3rem;
+   background-color:#83028f;
+  
+   color:white;
+   left:0rem;
+   font-family: Verdana;
+   border-radius: 0.8rem;
+   margin-top: 0%;
+}
+
+.products .box-container .box .fa-eye{
+   right:0.5rem;
+   height: 1.5rem;
+   width: 1.5rem;
+   line-height: 1.5rem;
+   font-size: 1.5rem;
+   background-color: var(--white);
+   color:var(--black);
+   border:var(--border);
+}
+
+.products .box-container .box .fa-eye:hover{
+   background-color: var(--black);
+   color:#83028f;
+}
+
+.products .box-container .box .quote{
+   margin:1rem;
+   font-size: 1.5rem;
+   color:var(--black);
+   font-family: Verdana;
+}
+
+
+
+.products .box-container .box .btn{
+margin-top: -7px;
+  color:#83028f;
+  font-size: 1.5rem;
+  background-color: #e5e5e5;
+  border:none;
+  font-family: Verdana;
+  text-decoration: none;
+}
+
+.quick-view form{
+   max-width: 50rem;
+   padding:2rem;
+   border: 2px solid black;
+   box-shadow: 15px 20px 20px rgb(170, 167, 167), inset 4px 4px 10px white;
+   border-radius: .5rem;
+   background-color: white;
+   margin:0 auto;  
+   background-color: #e5e5e5;
+   border :#83028f 1.5px solid; 
+   border-radius: 20px;
+   padding:2rem;
+   text-align: center;
+   position: relative;
+  
+}
+.quick-view form .image{
+   height:200px;
+   width:200px;
+   object-fit: cover;
+   border: 2px solid #83028f;
+}
+
+.form{
+   font-family:Georgia;
+   font-size: 1.6rem;
+   align-items: center;
+   
+}
+
+.Heading{
+font-size: 30px;
+font-family: Lucida Console; 
+text-align: center;
+}
+
+.btnvp{
+   margin-top:10px;
+   color:#83028f;
+   font-size: 1.5rem;
+   background-color: #e5e5e5;
+   border:none;
+   font-family: Verdana;
+   text-decoration: none;
+}
+
+.vpbb{
+   color:rgb(27, 25, 25);
+   font-size: 2rem;
+}
+
+.label{
+   margin-top: 2.5px;
+}

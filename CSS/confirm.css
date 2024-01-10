@@ -1,0 +1,87 @@
+.heading{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:0.5rem;
+    background: url(../images/confirm.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+ }
+ 
+ .mycontent{
+    text-transform: uppercase;   
+    color: #f1f1f1;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-family: Lucida Console; 
+ }
+
+ 
+ .heading h3{
+    font-size: 4.5rem;
+    
+    
+    
+ }
+ 
+ .heading p{
+    font-size: 2.5rem;
+  
+    
+ }
+ 
+ .heading h2{
+    font-size: 1.5 rem;
+  
+    
+ }
+ 
+ 
+ @keyframes fadeIn {
+    0%{
+       transform: translateY(1rem);
+       opacity: .2s;
+    }
+ }
+ 
+ 
+ 
+ button
+{
+    padding: 15px 55px;
+    background-color: white;
+    color: purple;
+    font-size: 20px;
+    border: black;
+    outline: black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .3s;
+	
+	 justify-content: center;
+	text-transform: uppercase;
+   
+    
+    width: 50%;
+    
+    text-align: center;
+	
+	position: center;
+}
+button:active
+{
+    transform: scale(.9);
+}
+
+.back{
+   border: 2px solid grey;
+   border-radius:0.5rem;
+   width: 15%;
+   font-family: Cambria;
+   font-size: 25px;
+   color: #83028f;
+   background-color:white;
+}

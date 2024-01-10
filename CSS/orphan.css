@@ -1,0 +1,275 @@
+
+
+.radio{
+    display: none;
+}
+
+body{
+    background:white;
+    
+}
+
+h1,h2,h3,h4{
+    font-family: Cambria;
+    color:#83028f;
+   font-size: 25px;
+    font-weight:normal;
+    text-align: center;  
+}
+
+.container{
+    position: relative;
+    max-width: 800px;
+    margin: 5% auto;
+ margin-top: 2%;
+}
+
+.slider{
+    width:100%;
+    position: absolute;
+   border: 2px solid gray;
+    padding-top: 56.25%;
+   
+}
+
+.slide{
+    position: absolute; 
+    top:0; left:0;
+    opacity:0;
+
+}
+
+.slide img{
+width:75%;
+margin-left: 50%;
+margin-right: 10%;
+margin-top: 8%;
+border: 2px solid #83028f;;
+    transform: scale(1.1);
+    transition: 1.3s;
+}
+
+.caption{
+    position: absolute;
+    color:black;
+    font-size: 40px;
+    margin-left: 2%;
+text-transform: capitalize;
+transition: 0.9s;
+}
+
+.caption span{
+    display: block;
+    text-transform: initial;
+    color:#83028f;
+    margin-top:0;
+  
+
+}
+
+.dots{
+    width:100%;
+    position: absolute;
+    bottom:5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dots label{
+    width:15px;
+    height:15px;
+    background: black;
+    margin: 0 10px;
+    border-radius: 50%;
+    opacity: 0.3;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.dots label:hover{
+    opacity: 0.7;
+}
+
+#radio-1:checked ~ #slide-1,
+#radio-2:checked ~ #slide-2,
+#radio-3:checked ~ #slide-3{
+    opacity: 1;
+}
+
+#radio-1:checked ~ #slide-1 img,
+#radio-2:checked ~ #slide-2 img,
+#radio-3:checked ~ #slide-3 img
+{
+transform: scale(1);
+}
+
+#radio-1:checked ~ #slide-1 .caption,
+#radio-2:checked ~ #slide-2 .caption,
+#radio-3:checked ~ #slide-3 .caption{
+    opacity: 1;
+    top:7%;
+   
+}
+
+#radio-1:checked ~ .dots #label-1,
+#radio-2:checked ~ .dots #label-2,
+#radio-3:checked ~ .dots #label-3{
+    background: #83028f;
+    opacity: 1;
+}
+
+p{
+    font-family: Cambria;
+    color:black;
+   font-size: 20px;
+    font-weight:normal;
+    text-align: justify;  
+}
+
+.products .box-container{
+ 
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    justify-content: center;
+   
+ }
+ 
+ .products .box-container .box{
+    background-color: #e5e5e5;
+    border:#83028f 1px solid;
+    box-shadow: 15px 20px 20px rgb(170, 167, 167), inset 4px 4px 10px white;
+    border-radius: 20px;
+    padding:2rem;
+    text-align: center;
+    position: relative;
+    height: 350px;
+    width:250px;
+    justify-content: center;
+    transition: transform .2s;
+ }
+ 
+ .products .box-container .box .image{
+    height:200px;
+    width:180px;
+    object-fit: cover;
+    border: 2px solid #83028f;
+   
+ }
+ 
+
+ .products .box-container .box .price{
+    position: absolute;
+    top:0.1rem;
+    
+ }
+ 
+ .products .box-container .box .price{
+    font-size: 1.5rem;
+   padding:0.3rem;
+   background-color:#83028f; 
+   color:white;
+   left:0rem;
+   font-family: Verdana;
+   border-radius: 0.8rem;
+   margin-top: 0%;
+ }
+ 
+
+
+ 
+ 
+ 
+ .products .box-container .box .btns{
+    margin-top: -25px;
+    color:#83028f;
+    font-size: 1.5rem;
+    background-color: #e5e5e5;
+    border:none;
+    font-family: Verdana;
+    text-decoration: none;;
+ }
+ 
+ .quick-view form{
+    max-width: 50rem;
+    padding:2rem;
+    text-align: center;
+    border: 2px solid black;
+    box-shadow: 15px 20px 20px rgb(170, 167, 167), inset 4px 4px 10px white;
+    border-radius:20px;
+    background-color: white;
+    margin:0 auto;  
+    background-color: #e5e5e5;
+    border:#83028f 1.5px solid;  
+    position: relative;
+    font-size: 18px;
+
+   
+ }
+ .quick-view form .image{
+    height:200px;
+    width:200px;
+    object-fit: cover;
+    border: 2px solid #83028f;
+ }
+ 
+ 
+ .quick-view form .label{
+ 
+ width:30%;
+ font-family: Verdana;
+ text-align: center;
+ }
+ 
+ .form{
+    font-family:Georgia;
+    font-size: 20px;
+    align-items: center;
+    
+ }
+
+ .pquote{
+    margin:1rem;
+    font-size: 1.5rem;
+    font-family: Verdana;
+    color: black;
+ }
+
+ .titleovp{
+    margin-top: 10px;
+    margin-left: 5px;
+    color: black;
+    text-align: left;
+    font-size: 35px;
+    font-family: Verdana;
+ }
+
+ .qty{
+  border:2px solid  #83028f;
+  height:30px;
+  width:25%;
+  font-size:16px;
+ }
+
+ .homel{
+    border:2px solid  #83028f;
+    height:30px;
+    width:70%; 
+    font-size:16px;
+ }
+
+ .btnovp{
+    margin-top:10px;
+  color:#83028f;
+  font-size: 1.5rem;
+  background-color: #e5e5e5;
+  border:none;
+  font-family: Verdana;
+  text-decoration: none;
+ }
+
+ .bbtn{
+    color:rgb(27, 25, 25);
+    font-size: 2rem;
+ }

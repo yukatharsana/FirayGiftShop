@@ -1,0 +1,98 @@
+{
+  "aboutFairy": [
+    {
+      "Title": "Lots of gifts for your loved ones.",
+      "image": "https://media.istockphoto.com/photos/gift-box-and-tag-picture-id496718345?k=20&m=496718345&s=612x612&w=0&h=mZox_Hr9NPqtAFPBAjsfhzoBBwkCiexa74XmPh9it8k=",
+      "Style": "Corasol1"
+    },
+    {
+      "Title": "Birthday collection & Anniversary collection.",
+      "image": "https://img.freepik.com/premium-photo/delicious-birthday-cake-with-copy-space_23-2148351943.jpg",
+      "Style": ".Corasol2"
+    },
+    {
+      "Title": "Lucky wheel chance and offer products available.",
+      "image": "https://img.freepik.com/premium-photo/3d-spinning-fortune-wheel-barrel-with-flying-gold-coins-yellow-background-online-casino_550395-758.jpg?w=2000",
+      "Style": ".Corasol3"
+    },
+    {
+      "Title": "Valantaines day collection .",
+      "image": "https://assets.thehansindia.com/h-upload/2020/02/05/260163-valentense-day.jpg",
+      "Style": ".Corasol4"
+    },
+    {
+      "Title": "You can send gifts  to Orphanage childrens for your special days.",
+      "image": "https://img.freepik.com/free-photo/gifts-stacked-shopping-card-blue-surface_23-2147892210.jpg?w=2000",
+      "Style": ".Corasol5"
+    }
+  ],
+  "Categories":[
+      {
+        "category":"Birthday Gifts",
+        "Sample":"https://img.freepik.com/premium-vector/black-white-hand-drawn-illustration-design-birthday-cake_177478-181.jpg?w=2000"
+      },
+      {
+        "category":"Wedding Gifts",
+        "Sample":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk7fGW5xNcdBYLJ_kV8aA3ewjPEV7nUWLdXA&usqp=CAU"  
+      },
+       {
+        "category":"Anniversary Gifts",
+        "Sample":"https://iconape.com/wp-content/files/it/377193/png/377193.png"
+      },
+      {
+        "category":"valentines day Gifts",
+        "Sample":"https://i.pinimg.com/564x/e3/df/1c/e3df1c71af501c8971f9539a5114e47c.jpg"  
+      },
+      {
+        "category":"Best wishes Gifts",
+        "Sample":"https://thumbs.dreamstime.com/b/best-wishes-trendy-calligraphy-quote-art-print-posters-greeting-cards-design-decorative-elements-calligraphic-164381892.jpg"
+      },
+      {
+        "category":"Next daydelivery",
+        "Sample":"https://thumbs.dreamstime.com/b/cake-delivery-dusk-style-icon-element-birthday-party-mobile-concept-web-apps-thin-line-can-be-used-white-170181831.jpg"  
+      },
+       {
+        "category":"Same daydelivery",
+        "Sample":"https://png.pngitem.com/pimgs/s/22-222043_fast-delivery-van-shipping-transport-free-shipping-icon.png"
+      },
+      {
+        "category":"Orphanage",
+        "Sample":"https://png.pngtree.com/png-vector/20191016/ourmid/pngtree-volunteers-support-house-vector-thin-line-icon-png-image_1803414.jpg"  
+      }
+  ],
+  "Offer": [
+    {
+      "Product_ID":278,
+      "Discount": 25
+    },
+    {
+      "Product_ID": 289,
+      "Discount": 12
+    },
+    {
+      "Product_ID":288,
+      "Discount":18
+    },
+    {
+      "Product_ID":286,
+      "Discount": 40
+    },
+    {
+      "Product_ID":300,
+      "Discount":20
+    },
+    {
+      "Product_ID":312,
+      "Discount": 13
+    },
+    {
+      "Product_ID":314,
+      "Discount": 19
+    },
+    {
+      "Product_ID": 315,
+      "Discount": 29
+    }
+  ],
+  "Latest":[271,299,298,294,293,292,304,307]
+}
